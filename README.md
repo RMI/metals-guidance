@@ -59,10 +59,10 @@ Some key terms for understanding the data model extension:
   A grouping of Process Steps along with company information. See [4.8. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
 
 ### Techical Guidance
-For full techical guidance on RMI's Steel Data Model Extension, see [here.](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md)
+For full techical guidance on RMI's Metals Data Model Extension, see [here.](https://github.com/RMI/metals-guidance/blob/main/specs/technical_specification.md)
 
 ### Sample and Schema Files
-A sample file of the data model extension can be found [here.](https://github.com/RMI/metals-guidance/blob/main/samples/metals_extension.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Steel Extension.
+A sample file of the data model extension can be found [here.](https://github.com/RMI/metals-guidance/blob/main/samples/metals_extension.json) Note: this sample file includes the full Pathfinder Data Model file as well as RMI's Metals Extension.
 
 A json schema file for the data model extension can be found [here.](https://github.com/RMI/metals-guidance/blob/main/specs/metals_json_schema.json)
 
