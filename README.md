@@ -3,7 +3,7 @@ This repository holds RMI's Steel and Aluminum Emissions Reporting Guidance, alo
 
 RMI's Steel Emissions Reporting Guidance consists of accounting guidance, in the form of PDF file, as well as a Pathfinder Network Data Model Extension The accounting guidance was launched in September of 2022--you can read the blog post [here](https://rmi.org/knowing-the-emissions-of-your-steel-supply-chain/) and press release [here](https://rmi.org/press-release/rmi-releases-guidance-to-cut-steel-industrys-climate-threat/).
 
-RMI's Aluminum Emissions Reporting Guidance 
+RMI's Aluminum Emissions Reporting Guidance
 
 ## Product Level Accounting Guidance
 The steel accounting guidance can be found [here:](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
@@ -77,4 +77,4 @@ Sravan Chalasani (schalasani@rmi.org)<br>
 Wenjuan Liu (wliu@rmi.org)<br>
 #### Data Exchange
 Samuel Huestis (shuestis@rmi.org)<br>
-John McGrath (jmcgrath@rmi.org) 
+John McGrath (jmcgrath@rmi.org)
