@@ -1,0 +1,91 @@
+{
+  "id": "",
+  "specVersion": "2.0.0",
+  "precedingPfIds": "",
+  "version": "",
+  "created": "",
+  "updated": "",
+  "status": "",
+  "statusComment": "",
+  "validityPeriodStart":"",
+  "validityPeriodEnd": "",
+  "companyName": "",
+  "companyIds": [
+    "URN DataType"
+  ],
+  "productDescription": "",
+  "productIds": [
+    "ProductId DataType"
+  ],
+"productCategoryCps": "",
+"productNameCompany": "",
+"comment": "",
+"pcf": 
+  {
+    "declaredUnit":"",
+    "unitaryProductAmount": "",
+    "pCfExcludingBiogenic": "",
+    "pCfIncludingBiogenic": "",
+    "fossilGhgEmissions": "",
+    "fossilCarbonContent": "",
+    "biogenicCarbonContent": "",
+    "dLucGhgEmissions": "",
+    "landManagementGhgEmissions": "",
+    "otherBiogenicEmissions": "",
+    "iLucGhgEmissions": "",
+    "biogenicCarbonWithdrawal": "",
+    "aircraftGhgEmissions": "",
+    "characterizationFactors": "",    
+    "crossSectoralStandardsUsed": [
+      "GHG Protocol Product standard",
+      "ISO Standard 14067",
+      "ISO Standard 14044"
+    ],
+    "productOrSectorSpecificRules": [
+      {
+        "operator": "",
+        "ruleNames": "",
+        "otherOperatorName": ""
+      }
+    ],
+    "biogenicAccountingMethodology": "",
+    "boundaryProcessDescription": "",
+    "referencePeriodStart": "",
+    "referencePeriodEnd": "",
+    "geographyCountrySubdivision": "",
+    "geographyCountry": "",
+    "geographyRegionOrSubregion": "",
+    "secondaryEmissionFactorSources":  [
+      {
+        "name": "",
+        "version": ""
+      }
+    ],
+    "exemptedEmissionsPercent": "",
+    "exemptedEmissionsDescription": "",
+    "packagingEmissionsIncluded": "",
+    "packagingGhgEmissions": "",
+    "allocationRulesDescription": "",
+    "uncertaintyAssessmentDescription": "",
+    "primaryDataShare": "",
+    "dqi": 
+    {
+      "coveragePercent": "",
+      "technologicalDQR": "",
+      "temporalDQR": "",
+      "geographicalDQR": "",
+      "completenessDQR": "",
+      "reliabilityDQR": ""
+    },
+    "assurance": 
+    {
+      "coverage": "",
+      "level": "",
+      "boundary": "",
+      "providerName": "",
+      "completedAt": "",
+      "standardName": "",
+      "comments": ""
+    }
+  }
+}
