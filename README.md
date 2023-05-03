@@ -46,6 +46,9 @@ Some key terms for understanding the data model extension:
 #### Low Carbon or Abatement Tech
   A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information please refer to section 2.4 of the [steel accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
   
+#### Mine to Smelter
+  The ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
+  
 #### Credits
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
   
