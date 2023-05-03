@@ -43,8 +43,8 @@ The Pathfinder Data Model is designed to enable the use of machine-readable shar
 ### Key Terms
 Some key terms for understanding the data model extension:
 
-#### Abatement Technology
-  A qualitative label of the techology used to reduce emissions in the steel supply chain. For more information please refer to section 2.4 of the [accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+#### Low Carbon or Abatement Tech
+  A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information please refer to section 2.4 of the [steel accounting guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
   
 #### Credits
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
