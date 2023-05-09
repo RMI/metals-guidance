@@ -34,7 +34,7 @@ For conformance with the Pathfinder Network, please refer to the [Conformance](h
 ## 4. Data Model Extension
 This section specifices a [data model extension](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-datamodelextension) for steel product footprints conforming with the [Pathfinder Network.](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network)
 
-The data model extension contains additional information for steel products, beyond what is specified in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#data-model)
+The data model extension contains additional information for steel and aluminum products, beyond what is specified in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#data-model)
 
 The data model extension consists of the following:
 
@@ -43,8 +43,8 @@ The data model extension consists of the following:
 3. MineToSmelterGeographyCountrySubdivision: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountrySubdivision field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
 4. MinetoSmelterGeographyCountry: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountry field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
 5. MineToSmelterGeographyRegionOrSubregion: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountryRegionOrSubregion field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
-6. RecycledContentSet: contains information related to the total recycled content used in steel production. See [4.7 Data Type: RecycledContentSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#43-data-type-recycledcontentset).
-7. ProcessGroupsSet: contains information related to the companies and steps of the steel production process. See [4.9 Data Type ProcessGroupsSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#45-data-type-processgroupsset).
+6. RecycledContentSet: contains information related to the total recycled content used in steel and aluminum production. See [4.7 Data Type: RecycledContentSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#43-data-type-recycledcontentset).
+7. ProcessGroupsSet: contains information related to the companies and steps of the steel and aluminum production process. See [4.9 Data Type ProcessGroupsSet](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#45-data-type-processgroupsset).
 
 ### 4.1. Data Type: LowCarbonOrAbatementTech
 LowCarbonOrAbatementTech is the enumeration of low carbon or abatement technologies used in the steel and aluminum production process.
@@ -78,7 +78,7 @@ A geographical field for the ore-based or mine-to-smelter portion of the aluminu
 Each AbatementTechnology MUST confrom to the JSON representation of the [RegionOrSubregion](https://wbcsd.github.io/data-exchange-protocol/v2/#enumdef-regionorsubregion) data type.
 
 ### 4.6. Data Type: RecycledContent
-RecycledContent refers to the recycled content used in the production of the steel (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf))
+RecycledContent refers to the recycled content used in the production of the steel and aluminum (see [RMI's Steel Emissions Reporting Guidance](https://rmi.org/wp-content/uploads/2022/09/steel_emissions_reporting_guidance.pdf))
 
 #### 4.6.1. Properties
 The properties of a RecycledContent are listed in the table below.
