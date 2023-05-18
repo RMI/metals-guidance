@@ -56,10 +56,10 @@ Some key terms for understanding the data model extension:
   Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
 
 #### Process Steps
-  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.10. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
+  A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.10. Data Type ProcessSteps](https://github.com/RMI/metals-guidance/blob/main/specs/technical_specification.md#410-data-type-processsteps).
 
 #### Process Groups
-  A grouping of Process Steps along with company information. See [4.8. Data Type ProcessGroups](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#44-data-type-processgroups).
+  A grouping of Process Steps along with company information. See [4.8. Data Type ProcessGroups](https://github.com/RMI/metals-guidance/blob/main/specs/technical_specification.md#48-data-type-processgroups).
 
 ### Techical Guidance
 For full techical guidance on RMI's Metals Data Model Extension, see [here.](https://github.com/RMI/metals-guidance/blob/main/specs/technical_specification.md)
