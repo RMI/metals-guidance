@@ -5,22 +5,22 @@
 ## 1. Introduction
 This document contains the necessary technical foundation for a metals data model extension to the [Pathfinder Network,](https://wbcsd.github.io/data-exchange-protocol/v2/#pathfinder-network) developed by [RMI.](https://rmi.org/) For full documentation of the Pathfinder Network, refer to the link above.
 
-The goal of this document is to enable the interoperable exchange of steel and aluminum Product Carbon Footprints, in accordance with the RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and [Aluminum Emissions Reporting Guidance], across conforming host systems.
+The goal of this document is to enable the interoperable exchange of steel and aluminum Product Carbon Footprints, in accordance with the RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and [Aluminum Emissions Reporting Guidance] (https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf), across conforming host systems.
 
 ## 2. Terminology
 For a full list of terminology, please refer to the [Terminology](https://wbcsd.github.io/data-exchange-protocol/v2/#terminology) section of the Pathfinder techical specification.
 
 ### Low Carbon or Abatement Tech
-  A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information, please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance.](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)
+  A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. For more information, please refer to the [Abatement Technology] section of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and sec 3.4.3 of RMI's [Aluminum Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
 
 ### Mine to Smelter
-  The ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
+  The ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's [Aluminum Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
 
 ### Credits
   Avoided emissions outside the fixed systems boundary. Credits are required to be seperately reported from the total emissions intensity.
   
 ### Process Names
-  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and Sec 2.2 Fixed System Boundary of RMI's Aluminum Guidance.
+  Discrete processes used in the production of steel. E.g. hot rolling, briquetting, casting. For more information see Sec 2.2 Fixed Boundary of RMI's [Steel Emissions Reporting Guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf) and Sec 2.2 Fixed System Boundary of RMI's [Aluminum Emissions Reportings Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
 
 #### Process Steps
   A grouping of Process Names along with their total emissions intensity, recycled content, exports, credits, and other related metadata. See [4.10. Data Type ProcessSteps](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#46-data-type-processsteps).
@@ -39,7 +39,7 @@ The data model extension contains additional information for steel and aluminum 
 The data model extension consists of the following:
 
 1. LowCarbonOrAbatementTech:  A qualitative label of the techology used to reduce emissions in the steel and aluminum supply chains. See [Terminology:](https://github.com/RMI/steel-guidance/blob/main/technical_specification.md#abatement-technology)
-2. MineToSmelterGhgEmissions: The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
+2. MineToSmelterGhgEmissions: The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's [Aluminum Emissions Reportings Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
 3. MineToSmelterGeographyCountrySubdivision: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountrySubdivision field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
 4. MinetoSmelterGeographyCountry: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountry field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
 5. MineToSmelterGeographyRegionOrSubregion: A geographical field for the ore-based or mine-to-smelter portion of the aluminum production. The requirements for this field corresponds to the GeographyCountryRegionOrSubregion field in the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)
@@ -54,7 +54,7 @@ Valid values are:
 Each AbatementTechnology MUST be encoded as a JSON string.
 
 ### 4.2. Data Type: MineToSmelterGhgEmissions
-The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's Aluminum Guidance.
+The emissions from the ore-based or mine-to-smelter portion of aluminum production. For more information, please refer Secs 2.3 and 3.2 of RMI's [Aluminum Emissions Reporting Guidance.]((https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf))
 
 #### 4.2.1. JSON Representation
 Each AbatementTechnology MUST be encoded as a JSON number.
