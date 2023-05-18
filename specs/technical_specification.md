@@ -1,5 +1,5 @@
 # Technical Specifications for RMI Metals PCF Data Exchange
-## Updated 1 May 2023
+## Updated 18 May 2023
 
 -------------------------
 ## 1. Introduction
