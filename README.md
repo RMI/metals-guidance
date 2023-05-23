@@ -72,12 +72,4 @@ A json schema file for the data model extension can be found [here.](https://git
 ## Contacts
 
 ### RMI
-#### Accounting Guidance
-Lachlan Wright (lwright@rmi.org)<br>
-Xiyuan Liu (xliu@rmi.org)<br>
-Iris Wu (iwu@rmi.org)<br>
-Sravan Chalasani (schalasani@rmi.org)<br>
-Wenjuan Liu (wliu@rmi.org)<br>
-#### Data Exchange
-Samuel Huestis (shuestis@rmi.org)<br>
-John McGrath (jmcgrath@rmi.org)
+For questions please contact ghgtransparency@rmi.org
