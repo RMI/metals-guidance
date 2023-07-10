@@ -95,6 +95,8 @@
       "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
         "lowCarbonOrAbatementTech":"",
+        "mineToSmelterDescription": "",
+        "mineToSmelterProductDeclaredUnit": "",
         "mineToSmelterGhgEmissions": "",
         "mineToSmelterGeographyCountrySubdivision": "",
         "mineToSmelterGeographyCountry": "",
